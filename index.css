@@ -157,7 +157,40 @@ body {
 
 /* About Section */
 
+.about-section {
+    height: 602px;
+    margin-top: 80px;
+}
 
+.about-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 120%;
+
+    color: var(--color-dark)
+}
+
+.about-section-text {
+    height: 200px;
+    margin-top: 32px;
+
+    column-count: 2;
+    column-gap: 20px;
+    column-fill: auto;
+
+    color: var(--color-dark);
+}
+
+.about-section-text p:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+.about-section-pictures {
+    margin-top: 32px;
+
+    display: flex;
+    gap: 20px;
+}
 
 /* Production Section */
 
