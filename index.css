@@ -194,7 +194,77 @@ body {
 
 /* Production Section */
 
+.production-section {
+    height: 985px;
+    margin-top: 80px;
+}
 
+.production-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 120%;
+
+    color: var(--color-dark);
+}
+
+.production-section-cards {
+    margin-top: 32px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 20px;
+}
+
+.production-card {
+    width: 380px;
+    height: 435px;
+
+    position: relative;
+
+    background-color: var(--color-light-gray);
+}
+
+.production-card-picture {
+    padding-left: 24px;
+    padding-top: 32px;
+}
+
+.production-card-small-picture {
+    padding-left: 24px;
+    padding-top: 55px;
+}
+
+.production-card h2 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 120%;
+
+    color: var(--color-dark);
+
+    position: absolute;
+    left: 24px;
+    bottom: 68px;
+}
+
+.more {
+    width: 113px;
+
+    position: absolute;
+    left: 24px;
+    bottom: 32px;
+}
+
+.more a {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 120%;
+
+    color: var(--color-accent);
+}
+
+.arrow-icon {
+    padding: 7px 0 6px 4px;
+}
 
 /* Representative Offices Section */
 
