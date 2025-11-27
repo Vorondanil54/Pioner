@@ -268,7 +268,87 @@ body {
 
 /* Representative Offices Section */
 
+.representative-offices-section {
+    height: 805px;
+    margin-top: 80px;
+}
 
+.representative-offices-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 120%;
+
+    color: var(--color-dark);
+}
+
+.representative-offices-map-border {
+    height: 715px;
+    margin-top: 32px;
+}
+
+.representative-offices-map {
+    height: 678.84px;
+    margin: 3.92px 24.53px 32.24px 3.57px;
+
+    background-image: url(/assets/RussiaMap.svg);
+
+    position: relative;
+}
+
+.office-location {
+    display: flex;
+
+    color: var(--color-dark);
+
+    position: absolute;
+}
+
+.office-location:nth-child(1) {
+    left: 67.43px;
+    bottom: 162.76px;
+}
+
+.office-location:nth-child(2) {
+    left: 98.43px;
+    bottom: 143.76px;
+}
+
+.office-location:nth-child(3) {
+    left: 182.43px;
+    bottom: 171.76px;
+}
+
+.office-location:nth-child(4) {
+    left: 243.43px;
+    bottom: 152.76px;
+}
+
+.office-location:nth-child(5) {
+    left: 210.43px;
+    bottom: 198.76px;
+}
+
+.office-location:nth-child(6) {
+    left: 378.43px;
+    bottom: 239.76px;
+}
+
+.office-location:nth-child(7) {
+    right: 22.47px;
+    bottom: 77.76px;
+}
+
+.point-circle {
+    width: 10px;
+    height: 10px;
+
+    margin: 2px 4px 2px 0;
+}
+
+.office-location h3 {
+    font-size: 12px;
+    line-height: 120%;
+}
 
 /* News Section */
 
