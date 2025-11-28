@@ -422,3 +422,74 @@ body {
 
 /* Footer, Navigation */
 
+.footer {
+    height: 361px;
+
+    margin-top: 80px;
+    padding-top: 56px;
+
+    background-color: var(--color-dark);
+}
+
+.footer-info {
+    width: 1155px;
+    height: 191px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-white {
+    width: 180px;
+    height: 38px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigation-list {
+    width: 343px;
+    height: 191px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-navigation-item a {
+    font-size: 16px;
+
+    color: var(--color-light);
+    text-decoration: none;
+}
+
+.footer-external-info-list {
+    width: 155px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-external-info-item a {
+    font-size: 16px;
+
+    color: var(--color-light);
+    text-decoration: none;
+}
+
+.footer-line {
+    margin-top: 56px;
+}
+
+.footer-lower {
+    margin-top: 16px;
+
+    font-size: 14px;
+    text-align: center;
+
+    color: var(--color-light);
+}
